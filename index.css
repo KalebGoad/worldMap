@@ -1,0 +1,45 @@
+
+.container {
+    display: flex;
+}
+
+.map {
+    width: 50vw;
+    height: 100vh;
+    /* flex: 1; */
+    background-color: rgb(0, 242, 255);
+    border: 4px solid black;
+    position: relative;
+}
+
+.svg_content {
+    position: absolute;
+    left: 50%;
+    right: 0;
+    top: 50%;
+    height: 40%;
+    width: 75%;
+    border: 6px solid black;
+}
+
+.data {
+    width: 50vw;
+    height: 100vh;
+    /* flex: 1; */
+    background-color: rgb(237, 128, 128);
+}
+/* depending how the SVG map looks, adjust Max-width to be larger, focus on usablility of the map when to switch flex-direction  */
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .map {
+        width: 100vw;
+        height: 40vh;
+    }
+
+    .data {
+        width: 100vw;
+        height: 60vh;
+    }
+}

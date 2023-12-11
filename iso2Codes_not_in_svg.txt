@@ -1,0 +1,84 @@
+ZH : Africa Eastern and Southern
+A9 : Africa
+ZI : Africa Western and Central
+1A : Arab World
+B4 : East Asia & Pacific (IBRD-only countries)
+B7 : Europe & Central Asia (IBRD-only countries)
+B1 : IBRD countries classified as high income
+B2 : Latin America & the Caribbean (IBRD-only countries)
+B3 : Middle East & North Africa (IBRD-only countries)
+B6 : Sub-Saharan Africa (IBRD-only countries)
+C9 : Sub-Saharan Africa (IFC classification)
+C4 : East Asia and the Pacific (IFC classification)
+B8 : Central Europe and the Baltics
+C5 : Europe and Central Asia (IFC classification)
+JG : Channel Islands
+C6 : Latin America and the Caribbean (IFC classification)
+C7 : Middle East and North Africa (IFC classification)
+C8 : South Asia (IFC classification)
+S3 : Caribbean small states
+D4 : East Asia & Pacific (IDA-eligible countries)
+D7 : Europe & Central Asia (IDA-eligible countries)
+D2 : Latin America & the Caribbean (IDA-eligible countries)
+D3 : Middle East & North Africa (IDA-eligible countries)
+N6 : IDA countries in Sub-Saharan Africa not classified as fragile situations 
+D5 : South Asia (IDA-eligible countries)
+F6 : IDA countries in Sub-Saharan Africa classified as fragile situations 
+D6 : Sub-Saharan Africa (IDA-eligible countries)
+4E : East Asia & Pacific (excluding high income)
+V2 : Early-demographic dividend
+Z4 : East Asia & Pacific
+7E : Europe & Central Asia (excluding high income)
+Z7 : Europe & Central Asia
+XC : Euro area
+EU : European Union
+F1 : Fragile and conflict affected situations
+6F : IDA countries classified as fragile situations, excluding Sub-Saharan Africa
+XD : High income
+HK : Hong Kong SAR, China
+XE : Heavily indebted poor countries (HIPC)
+ZB : IBRD, including blend
+XF : IBRD only
+ZT : IDA & IBRD total
+XG : IDA total
+XH : IDA blend
+XI : IDA only
+XY : Not classified
+XJ : Latin America & Caribbean (excluding high income)
+ZJ : Latin America & Caribbean 
+XL : Least developed countries: UN classification
+XM : Low income
+XN : Lower middle income
+XO : Low & middle income
+V3 : Late-demographic dividend
+MO : Macao SAR, China
+M1 : Middle East (developing only)
+ZQ : Middle East & North Africa
+XP : Middle income
+XQ : Middle East & North Africa (excluding high income)
+XU : North America
+M2 : North Africa
+6X : Non-resource rich Sub-Saharan Africa countries
+6N : IDA countries not classified as fragile situations, excluding Sub-Saharan Africa
+OE : OECD members
+S4 : Other small states
+V1 : Pre-demographic dividend
+S2 : Pacific island small states
+V4 : Post-demographic dividend
+R6 : Resource rich Sub-Saharan Africa countries
+8S : South Asia
+ZF : Sub-Saharan Africa (excluding high income)
+ZG : Sub-Saharan Africa 
+S1 : Small states
+A4 : Sub-Saharan Africa excluding South Africa
+T4 : East Asia & Pacific (IDA & IBRD countries)
+T7 : Europe & Central Asia (IDA & IBRD countries)
+T2 : Latin America & the Caribbean (IDA & IBRD countries)
+T3 : Middle East & North Africa (IDA & IBRD countries)
+T5 : South Asia (IDA & IBRD)
+T6 : Sub-Saharan Africa (IDA & IBRD countries)
+TW : Taiwan, China
+XT : Upper middle income
+1W : World
+XK : Kosovo
+A5 : Sub-Saharan Africa excluding South Africa and Nigeria
