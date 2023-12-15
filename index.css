@@ -3,43 +3,212 @@
     display: flex;
 }
 
+/* Start of the Map Component */
 .map {
-    width: 50vw;
+    width: 75vw;
     height: 100vh;
     /* flex: 1; */
     background-color: rgb(0, 242, 255);
     border: 4px solid black;
-    position: relative;
 }
 
-.svg_content {
-    position: absolute;
-    left: 50%;
-    right: 0;
-    top: 50%;
-    height: 40%;
-    width: 75%;
+    .map-header {
+        display: flex;
+        background-color: aliceblue
+        ;
+        margin: auto;
+        margin-top: 30px;
+        height: auto;
+        align-items: center;
+        width: fit-content;
+        border: 6px outset rgb(10, 10, 10);
+        border-radius: 8px;
+        box-shadow: -20px 10px 10px rgba(4, 4, 4, 0.246);
+    }
+
+        .click-globe {
+            display: block;
+            margin: auto;
+            font-size: 30px;
+            left: 50%;
+            align-items: center;
+        }
+
+            .svg_content {
+                margin: auto;
+                margin-top: 20%;
+                align-items: center;
+                height: 400px;
+                width: 65%;
+                border: 6px solid rgb(221, 12, 12);
+                border-radius: 400px;
+                box-shadow: -20px 10px 10px rgba(4, 4, 4, 0.483);
+            }
+
+ /* Start of Data Component */
+
+.data {
+    width: 35vw;
+    height: 100vh;
+    align-content: stretch;
+    background-color: rgb(237, 128, 128);
     border: 6px solid black;
 }
 
-.data {
-    width: 50vw;
-    height: 100vh;
-    /* flex: 1; */
-    background-color: rgb(237, 128, 128);
+    .data-header {
+        margin: auto;
+        margin-top: 30px;
+        align-items: center;
+        background-color: black;
+        height: auto;
+        max-width: fit-content;
+        border: 6px outset rgb(10, 10, 10);
+        border-radius: 8px;
+    }
+
+        .search {
+            padding: 10px;
+            margin: auto;
+            margin-left: 10px;
+            font-size: 20px;
+            color:aliceblue;
+        }
+            #search-field {
+                margin: auto;
+                margin-left: 30px;
+                border: 6px solid rgba(3, 247, 3, 0.862);
+                border-radius: 10px;
+            }
+
+                .country-data {
+                    margin: auto;
+                    margin-top: 30px;
+                    align-items: center;
+                    align-content: stretch;
+                    height: auto;
+                    max-width: fit-content;
+                    border: 6px solid rgb(10, 10, 10);
+                    border-radius: 16px;
+                    box-shadow: 0px 20px 10px rgba(76, 73, 73, 0.246);
+                }
+
+                    .output-text {
+                        font-size: 50px;
+
+                    }
+/* Media Queries for increasing SVG World map: use Min-width */
+
+@media (min-width: 1100px) {
+    .svg_content {
+        margin-top: 15%;
+        height: 500px;
+    }
 }
-/* depending how the SVG map looks, adjust Max-width to be larger, focus on usablility of the map when to switch flex-direction  */
-@media (max-width: 600px) {
+
+
+@media (min-width: 1350px) {
+    .svg_content {
+        margin-top: 10%;
+        height: 600px;
+    }
+}
+
+@media (min-width: 1550px) {
+    .svg_content {
+        margin-top: 8%;
+        height: 700px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .svg_content {
+        margin-top: 6%;
+        height: 800px;
+    }
+}
+
+@media (min-width: 2350px) {
+    .svg_content {
+        margin-top: 5%;
+        height: 900px;
+        border-radius: 700px;
+    }
+}
+
+@media (min-width: 2455px) {
+    .svg_content {
+        margin-top: 5%;
+        height: 1000px;
+        border-radius: 800px;
+    }
+}
+
+@media (min-width: 2900px) {
+    .svg_content {
+        margin-top: 5%;
+        height: 1100px;
+        border-radius: 900px;
+    }
+}
+
+
+/* Beginning of page break to mobile devices: Use Max-width*/
+
+@media (max-width: 800px) {
     .container {
         flex-direction: column;
     }
+
     .map {
         width: 100vw;
-        height: 40vh;
+        height: 70vh;
     }
+
+        .map-header {
+        height: 100px;
+        max-width: fit-content;
+        }
+
+            .click-globe {  
+                margin: auto;
+                padding: 2px;
+                font-size: 24px;
+            } 
+                .svg_content {
+                    margin-top: 30px;
+                    height: 400px;
+                }  
 
     .data {
         width: 100vw;
-        height: 60vh;
+        height: fit-content;
+        align-content: stretch;
+    }
+
+        .data-header {
+
+        }
+
+            .search {
+
+            }
+
+                .country-data {
+
+                }
+    
+}
+
+
+/* Media Queries for adjusting SVG world map to small devices. */
+@media (max-width: 530px) {
+    .svg_content {
+        height: 220px;
+    }
+} 
+ 
+@media (max-width: 400px) {
+    .svg_content {
+        height: 220px;
     }
 }
